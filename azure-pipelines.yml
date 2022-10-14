@@ -9,7 +9,7 @@
 # https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
 
 - trigger:
-- task: ArchiveFiles@2
+- task: ArchiveFiles
   inputs:
     rootFolderOrFile: '$(Build.BinariesDirectory)'
     includeRootFolder: true
